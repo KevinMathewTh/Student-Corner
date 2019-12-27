@@ -114,6 +114,101 @@ background-size: 100%;
 
   margin-top: -7px;
 }
+.About-ISA{
+
+  background-color:#4c516d;
+  color:lightsteelblue;
+  text-align: center;
+  width:100%;
+  height: 650px;
+}
+.about-ISA-text{
+
+font-size: 100px;
+padding: 30px;;
+}
+.about-card{
+
+  padding-top:12px;
+  padding-bottom:0px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.img-circle{
+
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-circle:hover{
+  width:150px;
+  height:150px;
+  box-shadow: 10px 8px 16px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about-card:hover{
+
+  color: lightblue;
+
+  
+}
+.about-card-title{
+  padding: 10px;
+  font-size: 30px;
+}
+body, html {
+  height: 100%;
+}
+
+.parallax { 
+  /* The image used */
+  background-image: url("sub2.jpg");
+
+  /* Full height */
+  height: 70%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.subscribe{
+  text-align: center;
+  padding: 30px;
+  width: 690px;
+  background: rgba(255, 255, 255, 0.7);
+
+}
+.footer{
+  height:375px;
+  width:100%;
+  background-color: #1D2951;
+}
+.footer-box{
+  width:100%;
+  padding-top: 100px;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+a:visited{
+
+  color:white;
+}
+.footer{
+  color:white;
+}
+.message
+{
+  width:100%;
+  height: 75px;
+}
+.email{
+  width:82%;
+}
+
+
+
         </style>
   </head>
   <body>
@@ -292,6 +387,98 @@ background-size: 100%;
 </div>
 
     <br><br><br><br>
+    <div class=" About-ISA">
+    <div class="container">
+      <div class="head" >
+       <h3 align="center" class=" display-1 about-ISA-text">About <b>ISA-VIT</b> Vellore</h3> 
+       </div>
+       <div class="row about-details"> 
+          
+          <div class="col-md-4 first about-card">  
+            <br><br><br><br>
+             <img class="img-circle" src="aboutpic1.jpeg" height="128" width="128" alt="Events">
+             <u><h5 align="center" class="about-card-title">Sessions</h5></u>
+             <p>events through out the year ,and may more,Lectures and interactive sessions with various stalwarts and inspirational personalities from all around the world!</p> 
+            </div> 
+            
+            <div class="col-md-4 second about-card"> 
+               <img class="img-circle" src="aboutpic2.jpeg" height="128" width="128" alt="Workshops">
+               <u><h5 align="center" class="about-card-title">Guest lectures</h5></u>
+              <p>Professional certified workshops on upcoming technologies like IOT, Augmented Reality!.interactive sessions with various stalwarts</p>
+               </div> 
+    
+             <div class="col-md-4 last about-card">
+              <br><br><br><br>
+              <img class="img-circle" src="aboutpic3.jpeg" height="128" width="128" alt="Hackathon">
+              <u><h5 align="center" class="about-card-title">Technitudes</h5></u>
+             <p> First of its kind in IT, it aims to bring industry problems to students so they may provide creative and effective solutions. The hack focuses on the following.</p> 
+            </div>
+          
+        </div> 
+      </div>
+    </div>
+    <div class="parallax">
+      <br><br><br>
+      <div class="container subscribe">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1" class="display-4"><B>Subscribe to get updates</B></label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    </div>
+    <div class="footer">
+      <div class="container footer-box">
+        <div class="row">
+      <div class="col-md-4">
+      <h1 class="display-6">ISA<span>  </span><span>  </span><span>VIT</span></h1>
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					·
+					<a target="_blank" href="https://blog.isavit.club/">Blog</a>
+					·
+					<a target="_blank" href="https://isavit.club/">About</a>
+					·
+					<a target="_blank" href="faqs.html">Faq</a>
+					·
+					<a target="_blank" href="https://isavit.club/#social-section">Contact</a>
+				</p>
+
+				<p class="footer-company-name">International Society of Automation &copy; 2019</p>
+
+				<div class="footer-icons">
+
+					<a target="_blank" href="https://www.facebook.com/isavitchapter/"><i class="fab fa-facebook-square"></i></a>
+					<a target="_blank" href="https://www.linkedin.com/company/isa/"><i class="fab fa-linkedin"></i></a>
+					<a target="_blank" href="https://www.instagram.com/isa_vit_/"><i class="fab fa-instagram"></i></a>
+					<a target="_blank" href="#"><i class="fa fa-bar-chart-o"></i></a>
+        </div>
+      </div>
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <div class="container footer-right">
+
+          <h1 class="display-6">Contact Us</h1>
+  
+          <form action="#" method="post">
+
+            <textarea name="message" class="message" placeholder="Message"></textarea>
+            <br>
+            <input type="text" name="email" class="email" placeholder="Enter your email">
+            <button>Send</button>
+  
+          </form>
+  
+        </div>
+      </div>
+      </div>
+
+				</div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
